@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('https://at.alicdn.com/t/font_998792_mo2p0a3obyo.ttf?t=1579424702259') format('truetype');
+}
+
+[class^="iconfont-"],
+[class*=" iconfont-"] {
+  font-family: 'iconfont' !important;
+  position:relative;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+}
+
+.iconfont-edit:before {
+  content:"\e61d";
+}
+.iconfont-drag:before {
+  content:"\e636";
+}
+.iconfont-rectangle:before {
+  content:"\e790";
+}
